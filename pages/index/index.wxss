@@ -38,3 +38,63 @@
     transform: translateY(0) scale(1) rotateY(0);
   }
 }
+
+/*第一个页面
+  包含内容：
+  姓名，手机号，微信号
+*/
+.section01{
+}
+/*我的头像*/
+.section01 .my_avatar{
+  width: 300rpx;
+  height: 300rpx;
+  background-color:red;
+}
+/* 简历文字 */
+.section01 .resume{
+  margin:5vh 0;
+  color: #FFFFFF;
+}
+
+/* 应聘职位 */
+.section01 .job_direction{
+  margin-top: 5vh;
+}
+/* 关于我的介绍 */
+.section01 .about_me{
+  margin-top: 5vh;
+}
+
+/*标题： 基本信息 & 联系方式
+  基本信息： 姓名、民族、籍贯、生日、学历、框架、爱好
+  联系方式： 手机号、微信号
+*/
+.section02 .h2{
+  text-align: center;
+  font-size: 50rpx;
+  border: 2rpx dashed #c4c1a2;
+  color: red;
+  border-radius: 4rpx;
+  padding: 0 20rpx;
+}
+.section02 .mt10vh{
+  margin-top:10vh;
+}
+.section02 .contact{
+  margin-top:40rpx;
+}
+.section02 .basic_ul{
+  margin-top:40rpx;
+}
+.section02 .basic_ul .basic_li{
+
+}
+.section02 .basic_ul .basic_li .base_label{
+  font-size: 36rpx;
+  color: orange;
+}
+.section02 .basic_ul .basic_li .base_info{
+  font-size: 36rpx;
+  color: orange;
+}
