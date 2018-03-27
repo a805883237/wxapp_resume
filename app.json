@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"#fff",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "个人简历",
+    "navigationBarTextStyle":"#fff"
+  }
+}
