@@ -26,6 +26,17 @@ page{
   flex-direction: row;
 }
 
+.dfr{
+  display: flex;
+  flex-direction:column-reverse;
+}
+
+.rfr{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
 .jcsb{
   justify-content: space-between;
 }

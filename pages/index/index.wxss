@@ -38,6 +38,12 @@
     transform: translateY(0) scale(1) rotateY(0);
   }
 }
+.mt10vh{
+  margin-top:10vh;
+}
+.mt5vh{
+  margin-top:5vh;
+}
 
 /*第一个页面
   包含内容：
@@ -70,7 +76,7 @@
   基本信息： 姓名、民族、籍贯、生日、学历、框架、爱好
   联系方式： 手机号、微信号
 */
-.section02 .h2{
+.section_h2{
   text-align: center;
   font-size: 50rpx;
   border: 2rpx dashed #c4c1a2;
@@ -78,14 +84,13 @@
   border-radius: 4rpx;
   padding: 0 20rpx;
 }
-.section02 .mt10vh{
-  margin-top:10vh;
-}
+
 .section02 .contact{
   margin-top:40rpx;
 }
 .section02 .basic_ul{
   margin-top:40rpx;
+  width: 480rpx;
 }
 .section02 .basic_ul .basic_li{
 
@@ -97,4 +102,33 @@
 .section02 .basic_ul .basic_li .base_info{
   font-size: 36rpx;
   color: orange;
+}
+
+
+
+/*第三页，个人履历*/
+.section03 .personal_details{
+  width: 80%;
+}
+.section03 .personal_details .left_inner{
+  flex:1;
+  margin-right:20rpx;
+}
+.section03 .personal_details .left_inner .left_item .left_dot{
+  position: relative;
+  width:14rpx;
+  height: 14rpx;
+  background-color: lightcoral;
+}
+.section03 .personal_details .right_inner{
+  flex:1;
+  margin-left:20rpx;
+  padding-bottom: 60rpx;
+}
+/*中间线条*/
+.section03 .personal_details .mid{
+  width: 12rpx;
+  border-radius: 4rpx;
+  background-color: lightseagreen;
+  position: absolute;
 }

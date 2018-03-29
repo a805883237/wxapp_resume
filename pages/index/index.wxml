@@ -16,8 +16,8 @@
         </view>
         <!--第二页-->
         <view class="df section section02 {{scrollindex==1?'active':''}}" style="background-image: url('https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/7.png?t=2018327');">
-            <view class="df aic white_back">
-                <text class="h2 mt10vh">基本信息</text>
+            <view class="df aic">
+                <text class="section_h2 mt10vh">基本信息</text>
                 <view class="basic_ul">
                     <view class="basic_li">
                         <text class="base_label">姓名：</text>
@@ -48,7 +48,7 @@
                         <text class="base_info">热爱互联网，热爱react</text>
                     </view>
                 </view>
-                <text class="h2 contact">联系方式</text>
+                <text class="section_h2 contact">联系方式</text>
                 <view class="basic_ul">
                 <view class="basic_li">
                     <text class="base_label">手机号：</text>
@@ -62,8 +62,33 @@
             </view>
         </view>
         <view class="section section03 {{scrollindex==2?'active':''}}" style="background: #33CCCC;">
-            <text class="section-maintitle">无缝对接双创服务3</text>
-            <text class="section-subtitle">构筑“云上孵化基地”3</text>
+            <view class="df aic">
+                <text class="section_h2 mt5vh">个人履历</text>
+                <view class="rf jcsa mt5vh personal_details">
+                    <view class="dfr left_inner jcfe">
+                        <view class="df left_item">
+                            <view class="left_dot"/>
+                            <text class="work_time">
+                                2018-03-28 ~ 2018-03-28
+                            </text>
+                            <text class="work_title">
+                                河北科技师范学院
+                            </text>
+                            <text class="work_detail">
+                                奥术大师大声道奥术大师多sad阿萨德撒的撒的按时阿萨德阿斯顿撒大声道阿萨德按时
+                            </text>
+                        </view>
+                        <text>123312</text>
+                        <text>999999</text>
+                    </view>
+                    <view class="mid"/>
+                    <view class="dfr right_inner jcfe">
+                        <text>123312</text>
+                        <text>999999</text>
+                        <text>999999</text>
+                    </view>
+                </view>
+            </view>
         </view>
         <view class="section section04 {{scrollindex==3?'active':''}}" style="background: #6699FF;">
             <text class="section-maintitle">无缝对接双创服务4</text>

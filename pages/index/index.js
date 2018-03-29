@@ -1,6 +1,6 @@
 Page({
     data: {
-        scrollindex:0,  //当前页面的索引值
+        scrollindex:2,  //当前页面的索引值
         totalnum:5,  //总共页面数
         starty:0,  //开始的位置x
         endy:0, //结束的位置y
