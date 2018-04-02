@@ -66,20 +66,45 @@
                 <text class="section_h2 mt5vh">个人履历</text>
                 <view class="rf jcsa mt5vh personal_details">
                     <view class="dfr left_inner jcfe">
+                        <!--第一个， 最早的工作内容-->
                         <view class="df left_item">
                             <view class="left_dot"/>
                             <text class="work_time">
-                                2018-03-28 ~ 2018-03-28
+                                2013-09-07 ~ 至今
                             </text>
                             <text class="work_title">
                                 河北科技师范学院
                             </text>
                             <text class="work_detail">
-                                奥术大师大声道奥术大师多sad阿萨德撒的撒的按时阿萨德阿斯顿撒大声道阿萨德按时
+                                在校期间，与几个兴趣相投的小伙伴共同创建曳舞倾城社团，主要负责对外宣传，锻炼沟通能力。关注社会前端发展情况，时刻了解最新技术。
                             </text>
                         </view>
-                        <text>123312</text>
-                        <text>999999</text>
+                        <!--第二个-->
+                        <view class="df left_item">
+                            <view class="left_dot"/>
+                            <text class="work_time">
+                                2015-06 ~ 2016-05
+                            </text>
+                            <text class="work_title">
+                                秦皇岛第嘉信息技术有限公司
+                            </text>
+                            <text class="work_detail">
+                                在此公司内，担任web前端实习生职位。主要运用前端技术：原生js，jq框架。
+                            </text>
+                        </view>
+                        <!--第三个-->
+                        <view class="df left_item">
+                            <view class="left_dot"/>
+                            <text class="work_time">
+                                2016-11 ~ 至今
+                            </text>
+                            <text class="work_title">
+                                宁波富熊网络科技有限公司
+                            </text>
+                            <text class="work_detail">
+                                在此公司内，担任react前端工程师职位。主要运用前端技术：react、react-native。
+                            </text>
+                        </view>
                     </view>
                     <view class="mid"/>
                     <view class="dfr right_inner jcfe">
@@ -90,13 +115,31 @@
                 </view>
             </view>
         </view>
+        <!--第四页 ： 最近项目 -->
         <view class="section section04 {{scrollindex==3?'active':''}}" style="background: #6699FF;">
-            <text class="section-maintitle">无缝对接双创服务4</text>
-            <text class="section-subtitle">构筑“云上孵化基地”4</text>
+            <view class="df aic">
+                <text class="section_h2 mt5vh">最近项目</text>
+                <view class="section04_inner">
+                    <text class="article_title">
+                        宁波富熊网络科技有限公司项目整体情况如下：
+                    </text>
+                    <text class="article">
+                        app项目一个(react-native)、后台管理系统三个（react+ant.design）、官网一个(react+next.js+ant.design)、移动端页面一个(react+mobile.ant.design)、小程序项目(labrador)
+                    </text>
+                </view>
+            </view>
         </view>
+        <!--第五页： 个人代码风格-->
         <view class="section section05 {{scrollindex==4?'active':''}}" style="background: #9966FF;">
-            <text class="section-maintitle">无缝对接双创服5</text>
-            <text class="section-subtitle">构筑“云上孵化基地”5</text>
+            <view class="df aic">
+                <text class="section_h2 mt5vh">代码风格</text>
+                <text class="article">
+                    任务下发后，先构建文档，将思路落实到纸面上。并且将代码逻辑翻译成文字后再书写。个人感觉要比直接写代码要好很多。
+                </text>
+                <text class="article">
+                    代码格式化：编写代码时，注意缩进，因为前端的代码基本都是成对出现的。感觉缩进如果运用好的话，对代码整体的把握程度要好很多。
+                </text>
+            </view>
         </view>
     </view>
 </view>

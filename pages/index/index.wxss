@@ -110,25 +110,54 @@
 .section03 .personal_details{
   width: 80%;
 }
+/*左侧的内容*/
 .section03 .personal_details .left_inner{
   flex:1;
   margin-right:20rpx;
 }
-.section03 .personal_details .left_inner .left_item .left_dot{
+
+/*左侧的 元素*/
+.section03 .personal_details .left_inner .left_item{
   position: relative;
-  width:14rpx;
-  height: 14rpx;
+}
+/*左侧 元素 在 中间轴部分 显示的点*/
+.section03 .personal_details .left_inner .left_item .left_dot{
+  position: absolute;
+  width:18rpx;
+  height: 18rpx;
+  right: -34rpx;
+  border-radius: 9rpx;
   background-color: lightcoral;
 }
-.section03 .personal_details .right_inner{
-  flex:1;
-  margin-left:20rpx;
-  padding-bottom: 60rpx;
+/*左侧元素 的 工作时间，区间*/
+.section03 .personal_details .left_inner .left_item .work_time{
+  font-size: 20rpx;
+  color: #333333;
+  line-height:10rpx;
 }
+/*左侧元素 的 工作 标题， 公司名称，学校名称*/
+.section03 .personal_details .left_inner .left_item .work_title{
+  font-size: 20rpx;
+  line-height:19rpx;
+  color: #333333;
+}
+/*左侧元素 的 工作内容大体情况*/
+.section03 .personal_details .left_inner .left_item .work_detail{
+  font-size: 16rpx;
+  line-height:22rpx;
+  margin-top:-10rpx;
+  color: #333333;
+}
+
 /*中间线条*/
 .section03 .personal_details .mid{
   width: 12rpx;
   border-radius: 4rpx;
   background-color: lightseagreen;
-  position: absolute;
+}
+/*右侧 的内容*/
+.section03 .personal_details .right_inner{
+  flex:1;
+  margin-left:20rpx;
+  padding-bottom: 60rpx;
 }
